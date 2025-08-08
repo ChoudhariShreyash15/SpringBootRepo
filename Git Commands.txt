@@ -1,0 +1,376 @@
+
+syste@Desk-27 MINGW64 ~ (new)
+$ cd "E:\Shreyash_1227\Java\IdeaProjects\IdeaProjects"
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ git add .
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ git commit -m "sdasjh"
+On branch master
+nothing to commit, working tree clean
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ git push -u origin master
+remote: Permission to ChoudhariShreyash15/SpringBootRepo.git denied to nikesh-1725.
+fatal: unable to access 'https://github.com/ChoudhariShreyash15/SpringBootRepo.git/': The requested URL returned error: 403
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$
+
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$
+
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ ls
+Learning/  Spring/  SpringBeans/  SpringBoot1/  SpringBoot2/  SpringBootMapping/  SpringBoot_Connecting_Multiple_Databases/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ ls -lrt
+total 16
+drwxr-xr-x 1 syste 197609 0 Jul 30 11:38 SpringBoot1/
+drwxr-xr-x 1 syste 197609 0 Aug  1 11:13 Spring/
+drwxr-xr-x 1 syste 197609 0 Aug  1 12:26 SpringBeans/
+drwxr-xr-x 1 syste 197609 0 Aug  4 18:46 SpringBoot2/
+drwxr-xr-x 1 syste 197609 0 Aug  6 12:35 SpringBoot_Connecting_Multiple_Databases/
+drwxr-xr-x 1 syste 197609 0 Aug  6 15:51 SpringBootMapping/
+drwxr-xr-x 1 syste 197609 0 Aug  8 10:19 Learning/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ ls -lrta
+total 24
+drwxr-xr-x 1 syste 197609 0 Jul 30 11:38 SpringBoot1/
+drwxr-xr-x 1 syste 197609 0 Aug  1 11:13 Spring/
+drwxr-xr-x 1 syste 197609 0 Aug  1 12:26 SpringBeans/
+drwxr-xr-x 1 syste 197609 0 Aug  4 18:46 SpringBoot2/
+drwxr-xr-x 1 syste 197609 0 Aug  6 12:35 SpringBoot_Connecting_Multiple_Databases/
+drwxr-xr-x 1 syste 197609 0 Aug  6 15:51 SpringBootMapping/
+drwxr-xr-x 1 syste 197609 0 Aug  7 19:20 ./
+drwxr-xr-x 1 syste 197609 0 Aug  8 10:19 Learning/
+drwxr-xr-x 1 syste 197609 0 Aug  8 10:26 ../
+drwxr-xr-x 1 syste 197609 0 Aug  8 10:28 .git/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ rm .git/ -rf
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ ls
+Learning/  Spring/  SpringBeans/  SpringBoot1/  SpringBoot2/  SpringBootMapping/  SpringBoot_Connecting_Multiple_Databases/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (master)
+$ cd ../test/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test (master)
+$ git clone
+syste@Desk-27 MINGW64 ~ (new)
+$ cd "E:\Shreyash_1227\Java\IdeaProjects\IdeaProjects"
+fatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]progress       force progress reporting
+    --[no-]reject-shallow don't clone shallow repository
+    -n, --no-checkout     don't create a checkout
+    --checkout            opposite of --no-checkout
+    --[no-]bare           create a bare repository
+    --[no-]mirror         create a mirror repository (implies --bare)
+    -l, --[no-]local      to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    --hardlinks           opposite of --no-hardlinks
+    -s, --[no-]shared     setup as shared repository
+    --[no-]recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    --[no-]recursive ...  alias of --recurse-submodules
+    -j, --[no-]jobs <n>   number of submodules cloned in parallel
+    --[no-]template <template-directory>
+                          directory from which templates will be used
+    --[no-]reference <repo>
+                          reference repository
+    --[no-]reference-if-able <repo>
+                          reference repository
+    --[no-]dissociate     use --reference only while cloning
+    -o, --[no-]origin <name>
+                          use <name> instead of 'origin' to track upstream
+    -b, --[no-]branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    --[no-]revision <rev> clone single revision <rev> and check out
+    -u, --[no-]upload-pack <path>
+                          path to git-upload-pack on the remote
+    --[no-]depth <depth>  create a shallow clone of that depth
+    --[no-]shallow-since <time>
+                          create a shallow clone since a specific time
+    --[no-]shallow-exclude <ref>
+                          deepen history of shallow clone, excluding ref
+    --[no-]single-branch  clone only one branch, HEAD or --branch
+    --[no-]tags           clone tags, and make later fetches not to follow them
+    --[no-]shallow-submodules
+                          any cloned submodules will be shallow
+    --[no-]separate-git-dir <gitdir>
+                          separate git dir from working tree
+    --[no-]ref-format <format>
+                          specify the reference format to use
+    -c, --[no-]config <key=value>
+                          set config inside the new repository
+    --[no-]server-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --[no-]filter <args>  object filtering
+    --[no-]also-filter-submodules
+                          apply partial clone filters to submodules
+    --[no-]remote-submodules
+                          any cloned submodules will use their remote-tracking branch
+    --[no-]sparse         initialize sparse-checkout file to include only files at root
+    --[no-]bundle-uri <uri>
+                          a URI for downloading bundles before fetching from origin remote
+
+bash: syntax error near unexpected token `('
+bash: $: command not found
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test (master)
+$ git clone https://github.com/ChoudhariShreyash15/SpringBootRepo.git
+Cloning into 'SpringBootRepo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (3/3), done.
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test (master)
+$ ls
+SpringBootRepo/
+c
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test (master)
+$ cd  SpringBootRepo/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test/SpringBootRepo (main)
+$ ls
+README.md
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test/SpringBootRepo (main)
+$ ls -lrt
+total 1
+-rw-r--r-- 1 syste 197609 16 Aug  8 10:39 README.md
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test/SpringBootRepo (main)
+$ cp .git/ ../../IdeaProjects/
+cp: -r not specified; omitting directory '.git/'
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test/SpringBootRepo (main)
+$ cp .git/ ../../IdeaProjects/ -rf
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/test/SpringBootRepo (main)
+$ cd ../../IdeaProjects/
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (main)
+$ git add .
+warning: in the working copy of 'Learning/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Learning/src/stringFunctions.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'Spring/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBeans/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/src/main/java/com/example/SpringBoot1/SpringBoot1Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot1/src/test/java/com/example/SpringBoot1/SpringBoot1ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/src/main/java/com/example/SpringBoot2/SpringBoot2Application.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot2/src/test/java/com/example/SpringBoot2/SpringBoot2ApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/src/main/java/com/example/SpringBootMapping/SpringBootMappingApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBootMapping/src/test/java/com/example/SpringBootMapping/SpringBootMappingApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'SpringBoot_Connecting_Multiple_Databases/src/test/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (main)
+$ git commit -m "first"
+[main c47e220] first
+ 145 files changed, 4439 insertions(+), 1 deletion(-)
+ create mode 100644 Learning/.gitignore
+ create mode 100644 Learning/.idea/.gitignore
+ create mode 100644 Learning/.idea/misc.xml
+ create mode 100644 Learning/.idea/modules.xml
+ create mode 100644 Learning/.idea/vcs.xml
+ create mode 100644 Learning/Learning.iml
+ create mode 100644 Learning/src/A.java
+ create mode 100644 Learning/src/Animal.java
+ create mode 100644 Learning/src/AutoBoxing.java
+ create mode 100644 Learning/src/Bank.java
+ create mode 100644 Learning/src/BigThree.java
+ create mode 100644 Learning/src/Cat.java
+ create mode 100644 Learning/src/CheckAge.java
+ create mode 100644 Learning/src/CheckDiscount.java
+ create mode 100644 Learning/src/CheckDuplicatesInArray.java
+ create mode 100644 Learning/src/CheckNumber.java
+ create mode 100644 Learning/src/EComStore.java
+ create mode 100644 Learning/src/EvenOdd.java
+ create mode 100644 Learning/src/Factorial.java
+ create mode 100644 Learning/src/Inc_Dec_Operator.java
+ create mode 100644 Learning/src/IntegerCachePool.java
+ create mode 100644 Learning/src/LambdaFunction.java
+ create mode 100644 Learning/src/MainLambda.java
+ create mode 100644 Learning/src/Person.java
+ create mode 100644 Learning/src/PrimeNo.java
+ create mode 100644 Learning/src/ReverseArray.java
+ create mode 100644 Learning/src/ReverseOfNumber.java
+ create mode 100644 Learning/src/Sample.java
+ create mode 100644 Learning/src/StringIntegerPool.java
+ create mode 100644 Learning/src/SumOfArray.java
+ create mode 100644 Learning/src/ThreadPractice/Threads.java
+ create mode 100644 Learning/src/Threads.java
+ create mode 100644 Learning/src/TypeCasting_Explicit_Implicit.java
+ create mode 100644 Learning/src/UnBoxing.java
+ create mode 100644 Learning/src/UpCasting_DownCasting.java
+ create mode 100644 Learning/src/Vowel_Consonant.java
+ create mode 100644 Learning/src/areaRect.java
+ create mode 100644 Learning/src/areaofCircle.java
+ create mode 100644 Learning/src/bigTen.java
+ create mode 100644 Learning/src/secondMax.java
+ create mode 100644 Learning/src/serializing/Main.java
+ create mode 100644 Learning/src/smallTen.java
+ create mode 100644 Learning/src/stringFunctions.java
+ create mode 100644 Learning/src/stringReversal.java
+ create mode 100644 Learning/src/sumEvenOdd.java
+ create mode 100644 Learning/src/sumTen.java
+ delete mode 100644 README.md
+ create mode 100644 Spring/.gitignore
+ create mode 100644 Spring/.idea/.gitignore
+ create mode 100644 Spring/.idea/encodings.xml
+ create mode 100644 Spring/.idea/misc.xml
+ create mode 100644 Spring/.idea/vcs.xml
+ create mode 100644 Spring/pom.xml
+ create mode 100644 Spring/src/main/java/org/example/App.java
+ create mode 100644 Spring/src/main/java/org/example/components/EngTeacher.java
+ create mode 100644 Spring/src/main/java/org/example/components/Principal.java
+ create mode 100644 Spring/src/main/java/org/example/components/PtTeacher.java
+ create mode 100644 Spring/src/main/java/org/example/configuration/SpringConfig.java
+ create mode 100644 Spring/src/main/java/org/example/repo/School.java
+ create mode 100644 Spring/src/test/java/org/example/AppTest.java
+ create mode 100644 SpringBeans/.gitignore
+ create mode 100644 SpringBeans/.idea/.gitignore
+ create mode 100644 SpringBeans/.idea/encodings.xml
+ create mode 100644 SpringBeans/.idea/misc.xml
+ create mode 100644 SpringBeans/.idea/vcs.xml
+ create mode 100644 SpringBeans/pom.xml
+ create mode 100644 SpringBeans/src/main/java/org/example/App.java
+ create mode 100644 SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/DieselEngine.java
+ create mode 100644 SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/PetrolEngine.java
+ create mode 100644 SpringBeans/src/main/java/org/example/JavaBasedConfiguration/component/Vehicle.java
+ create mode 100644 SpringBeans/src/main/java/org/example/JavaBasedConfiguration/configuration/Config.java
+ create mode 100644 SpringBeans/src/main/java/org/example/JavaBasedConfiguration/repo/Engine.java
+ create mode 100644 SpringBeans/src/main/java/org/example/xml/component/Diesel.java
+ create mode 100644 SpringBeans/src/main/java/org/example/xml/component/Petrol.java
+ create mode 100644 SpringBeans/src/main/java/org/example/xml/component/Vehicle.java
+ create mode 100644 SpringBeans/src/main/java/org/example/xml/repo/Engine1.java
+ create mode 100644 SpringBeans/src/main/resources/Config.xml
+ create mode 100644 SpringBeans/src/test/java/org/example/AppTest.java
+ create mode 100644 SpringBoot1/.gitattributes
+ create mode 100644 SpringBoot1/.gitignore
+ create mode 100644 SpringBoot1/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 SpringBoot1/mvnw
+ create mode 100644 SpringBoot1/mvnw.cmd
+ create mode 100644 SpringBoot1/pom.xml
+ create mode 100644 SpringBoot1/src/main/java/com/example/SpringBoot1/SpringBoot1Application.java
+ create mode 100644 SpringBoot1/src/main/resources/application.properties
+ create mode 100644 SpringBoot1/src/main/resources/application.yml
+ create mode 100644 SpringBoot1/src/test/java/com/example/SpringBoot1/SpringBoot1ApplicationTests.java
+ create mode 100644 SpringBoot2/.gitattributes
+ create mode 100644 SpringBoot2/.gitignore
+ create mode 100644 SpringBoot2/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 SpringBoot2/mvnw
+ create mode 100644 SpringBoot2/mvnw.cmd
+ create mode 100644 SpringBoot2/pom.xml
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/SpringBoot2Application.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/controller/EidikoController.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/entity/Eidiko.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/exception/EmployeeNotFoundException.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/exception/GlobalExceptionHandler.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/jackson/ModelMapping.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/jackson/ObjectMapper.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/repo/EidikoRepo.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/response/ResponseHandler.java
+ create mode 100644 SpringBoot2/src/main/java/com/example/SpringBoot2/service/EidikoServices.java
+ create mode 100644 SpringBoot2/src/main/resources/application.properties
+ create mode 100644 SpringBoot2/src/main/resources/application.yml
+ create mode 100644 SpringBoot2/src/main/resources/jackson.txt
+ create mode 100644 SpringBoot2/src/main/resources/javaObject.txt
+ create mode 100644 SpringBoot2/src/test/java/com/example/SpringBoot2/SpringBoot2ApplicationTests.java
+ create mode 100644 SpringBootMapping/.gitattributes
+ create mode 100644 SpringBootMapping/.gitignore
+ create mode 100644 SpringBootMapping/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 SpringBootMapping/mvnw
+ create mode 100644 SpringBootMapping/mvnw.cmd
+ create mode 100644 SpringBootMapping/pom.xml
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/SpringBootMappingApplication.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/controller/PersonController.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Address.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Colony.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Flat.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/entity/Person.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/AddressRepo.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/ColonyRepo.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/FlatRepo.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/repo/PersonRepo.java
+ create mode 100644 SpringBootMapping/src/main/java/com/example/SpringBootMapping/service/PersonService.java
+ create mode 100644 SpringBootMapping/src/main/resources/application.properties
+ create mode 100644 SpringBootMapping/src/main/resources/application.yaml
+ create mode 100644 SpringBootMapping/src/test/java/com/example/SpringBootMapping/SpringBootMappingApplicationTests.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/.gitattributes
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/.gitignore
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/.mvn/wrapper/maven-wrapper.properties
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/mvnw
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/mvnw.cmd
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/pom.xml
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplication.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/config/MysqlConfig.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/config/OracleConfig.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/mysqlEntity/Person.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/mysqlRepo/PersonRepo.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/oracleEntity/Student.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/java/com/example/SpringBoot_Connecting_Multiple_Databases/oracleRepo/StudentRepo.java
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/resources/application.properties
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/main/resources/application.yml
+ create mode 100644 SpringBoot_Connecting_Multiple_Databases/src/test/java/com/example/SpringBoot_Connecting_Multiple_Databases/SpringBootConnectingMultipleDatabasesApplicationTests.java
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (main)
+$ git push
+remote: Permission to ChoudhariShreyash15/SpringBootRepo.git denied to nikesh-1725.
+fatal: unable to access 'https://github.com/ChoudhariShreyash15/SpringBootRepo.git/': The requested URL returned error: 403
+
+syste@Desk-27 MINGW64 /e/Shreyash_1227/Java/IdeaProjects/IdeaProjects (main)
+$ git push
+remote: Permission to ChoudhariShreyash15/SpringBootRepo.git denied to nikesh-1725.
+fatal: unable to access 'https://github.com/ChoudhariShreyash15/SpringBootRepo.git/': The requested URL returned error: 403
