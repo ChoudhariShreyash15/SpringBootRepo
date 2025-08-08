@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans
+         https://www.springframework.org/schema/beans/spring-beans.xsd
+         http://www.springframework.org/schema/context
+         https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Component scanning for annotations like @Component, @Service, @Repository, etc. -->
+    <bean id="p" class="org.example.xml.component.Petrol"></bean>
+    <bean id="d" class="org.example.xml.component.Diesel"/>
+    <bean id="v" class="org.example.xml.component.Vehicle">
+        <property name="engine1" ref="p"></property>
+    </bean>
+</beans>

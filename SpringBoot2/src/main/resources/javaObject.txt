@@ -1,0 +1,6 @@
+{
+  "empId": 101,
+  "empName": "John Doe",
+  "dept": "Engineering",
+  "empSalary": 75000.50
+}
