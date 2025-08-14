@@ -47,12 +47,12 @@ public class Practice {
     }
 
     public void readNio(Path resolve) throws IOException {
-        List<String> list= Arrays.asList("I LOVE YOU");
+        List<String> list= Arrays.asList("I LOVE Nio Package");
         Files.write(resolve,list,StandardCharsets.UTF_8);
 
         try(BufferedWriter bufferedWriter=Files.newBufferedWriter(resolve,StandardCharsets.UTF_8, StandardOpenOption.APPEND))
         {
-            bufferedWriter.write("AHAHHAHHA");
+            bufferedWriter.write("Read Nio");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -93,9 +93,6 @@ public class Practice {
         try(FileWriter fileWriter=new FileWriter(file))
         {
             fileWriter.write("Hello world!");
-            fileWriter.write("Asia");
-            fileWriter.write(System.lineSeparator());
-            fileWriter.write("India");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -121,7 +118,7 @@ public class Practice {
         try(BufferedWriter bufferedWriter=new BufferedWriter(new FileWriter(file,true)))
         {
             bufferedWriter.write(System.lineSeparator());
-            bufferedWriter.write("Hello Babes");
+            bufferedWriter.write("Hello Buffer");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

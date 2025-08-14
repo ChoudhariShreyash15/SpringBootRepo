@@ -1,20 +1,19 @@
 package serializing;
 
 import java.io.*;
-// Add Commit 
 
 class Student implements Serializable{
     int id;
     String name;
 
-    public Student(int id,String name){
+    public Student(int id,String name){ //Constructor
         this.id = id;
         this.name = name;
     }
 
     @Override
     public String toString(){
-        return "Student{id=" + id + ",name=" + name + "}"; // Constructor
+        return "Student{id=" + id + ",name=" + name + "}"; // Getter
     }
 }
 public class Main {

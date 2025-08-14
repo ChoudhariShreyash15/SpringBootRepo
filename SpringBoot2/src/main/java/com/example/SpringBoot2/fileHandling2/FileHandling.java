@@ -34,10 +34,10 @@ public class FileHandling {
         else {
             System.out.println("File already exists.");
         }
-        readIOFile(file);
+        writeIOFile(file);
     }
 
-    public void readIOFile(File file) throws IOException {
+    public void writeIOFile(File file) throws IOException {
         FileWriter fileWriter = new FileWriter(file);
         fileWriter.write("Hello World");
         fileWriter.close();
