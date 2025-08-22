@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Aug14_SpringExcelFileReader</artifactId>
+	<artifactId>Aug18_ExtractTableFromPdf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Aug14_SpringExcelFileReader</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Aug18_ExtractTableFromPdf</name>
+	<description>Extract Table From Pdf using Tabula Dependency</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -30,15 +30,22 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
-			<groupId>net.sourceforge.tess4j</groupId>
-			<artifactId>tess4j</artifactId>
-			<version>5.10.0</version>
+			<groupId>org.apache.pdfbox</groupId>
+			<artifactId>pdfbox</artifactId>
+			<version>2.0.25</version>
+		</dependency>
+
+		<dependency>
+			<groupId>technology.tabula</groupId>
+			<artifactId>tabula</artifactId>
+			<version>1.0.5</version>
 		</dependency>
 
 		<dependency>
@@ -53,29 +60,19 @@
 			<version>5.2.5</version>
 		</dependency>
 
-		<dependency>
-			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc11</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-
-		<dependency>
-			<groupId>org.apache.pdfbox</groupId>
-			<artifactId>pdfbox</artifactId>
-			<version>2.0.25</version>
-		</dependency>
-
 	</dependencies>
 
 	<build>

@@ -1,0 +1,23 @@
+server:
+  port: 8090
+
+spring:
+  application:
+    name: Aug19_SpringBootApplication
+
+  datasource:
+    mysql:
+      url: jdbc:mysql://localhost:3306/Eidiko
+      username: root
+      password: sarasu10
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    oracle:
+      url: jdbc:oracle:thin:@localhost:1521:xe
+      username: Eidiko
+      password: sarasu10
+      driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

@@ -19,13 +19,13 @@ public class controllerOcr {
     public ResponseEntity<String> handleOcr(@RequestParam MultipartFile multipartFile)
             throws TesseractException, IOException {
         serviceOcr.readOcr(multipartFile);
-        return ResponseEntity.ok("OK");
+        return ResponseEntity.ok("Image Extracted Successfully");
     }
 
     @GetMapping("/pdf")
     public ResponseEntity<String> readFile(@RequestParam MultipartFile multipartFile)
             throws IOException, TesseractException {
         serviceOcr.processFile(multipartFile);
-        return ResponseEntity.ok("OK");
+        return ResponseEntity.ok("PDF Extracted Successfully");
     }
 }
