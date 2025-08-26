@@ -1,0 +1,11 @@
+server:
+  port: 8099
+spring:
+  mail:
+    imap:
+      host: imap.gmail.com
+      port: 993
+      user: abhishekghogare.eidiko@gmail.com
+      password: ${APP_PASSWORD}
+      protocol: imaps
+      ssl.enable: true
