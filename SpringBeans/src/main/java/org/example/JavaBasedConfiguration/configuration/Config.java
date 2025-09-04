@@ -42,7 +42,6 @@ public class Config implements InitializingBean, DisposableBean {
         System.out.println("Beans are created using post");
     }
 
-
     @PreDestroy
     public void readyDestroyed(){
         System.out.println("Beans are Destroyed using pre");

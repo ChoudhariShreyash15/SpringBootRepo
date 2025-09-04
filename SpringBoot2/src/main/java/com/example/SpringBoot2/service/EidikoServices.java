@@ -5,9 +5,11 @@ import com.example.SpringBoot2.exception.EmployeeNotFoundException;
 import com.example.SpringBoot2.repo.EidikoRepo;
 import jakarta.persistence.SequenceGenerator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
 @Service
+//@Scope("prototype")
 public class EidikoServices {
     @Autowired
     private EidikoRepo eidikoRepo;

@@ -6,15 +6,22 @@ import org.springframework.beans.factory.annotation.Qualifier;
 
 public class Vehicle {
 
-//    private final Engine petrolEngine;
-//    private final Engine dieselEngine;
+    @Autowired
     private Engine engine;
 
-    @Autowired
     @Qualifier("diesel")
     public void setEngine(Engine engine) {
         this.engine = engine;
     }
+
+    public void engineType(){
+        engine.info();
+//        petrolEngine.info();
+//        dieselEngine.info();
+    }
+
+//    private final Engine petrolEngine;
+//    private final Engine dieselEngine;
 
 //    @Autowired
 //    public Vehicle( Engine engine)
@@ -23,10 +30,4 @@ public class Vehicle {
 ////        this.dieselEngine=dieselEngine;
 //        this.engine=engine;
 //    }
-
-    public void engineType(){
-        engine.info();
-//        petrolEngine.info();
-//        dieselEngine.info();
-    }
 }
