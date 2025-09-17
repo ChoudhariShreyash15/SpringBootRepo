@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.Hello_World/1.Hello_World.iml" filepath="$PROJECT_DIR$/1.Hello_World/1.Hello_World.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.Print Odd Nos./10.Print Odd Nos..iml" filepath="$PROJECT_DIR$/10.Print Odd Nos./10.Print Odd Nos..iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.Menu Based Calculator using switch/11.Menu Based Calculator using switch.iml" filepath="$PROJECT_DIR$/11.Menu Based Calculator using switch/11.Menu Based Calculator using switch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12.Area of Circle/12.Area of Circle.iml" filepath="$PROJECT_DIR$/12.Area of Circle/12.Area of Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/13.E-Com Store/13.E-Com Store.iml" filepath="$PROJECT_DIR$/13.E-Com Store/13.E-Com Store.iml" />
+      <module fileurl="file://$PROJECT_DIR$/14.Check No/14.Check No.iml" filepath="$PROJECT_DIR$/14.Check No/14.Check No.iml" />
+      <module fileurl="file://$PROJECT_DIR$/15.BigThree/15.BigThree.iml" filepath="$PROJECT_DIR$/15.BigThree/15.BigThree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.addTwoNo/2.addTwoNo.iml" filepath="$PROJECT_DIR$/2.addTwoNo/2.addTwoNo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.Calculator/3.Calculator.iml" filepath="$PROJECT_DIR$/3.Calculator/3.Calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.If-Else Statements or Age Minor or Major/4.If-Else Statements or Age Minor or Major.iml" filepath="$PROJECT_DIR$/4.If-Else Statements or Age Minor or Major/4.If-Else Statements or Age Minor or Major.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.for loop/5.for loop.iml" filepath="$PROJECT_DIR$/5.for loop/5.for loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.While loop/6.While loop.iml" filepath="$PROJECT_DIR$/6.While loop/6.While loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7.Do-While loop/7.Do-While loop.iml" filepath="$PROJECT_DIR$/7.Do-While loop/7.Do-While loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8.Break N Continue Keywords/8.Break N Continue Keywords.iml" filepath="$PROJECT_DIR$/8.Break N Continue Keywords/8.Break N Continue Keywords.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.Print Even Nos./9.Print Even Nos..iml" filepath="$PROJECT_DIR$/9.Print Even Nos./9.Print Even Nos..iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+    </modules>
+  </component>
+</project>

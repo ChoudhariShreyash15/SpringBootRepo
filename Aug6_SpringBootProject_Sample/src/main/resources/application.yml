@@ -1,0 +1,36 @@
+server:
+  port: 8090
+spring:
+  mail:
+    username: shreyashvijaychoudhari.eidiko@gmail.com
+    password: ncxnnyvwnuljqbpy
+    host: smtp.gmail.com
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+
+  application:
+    name: Aug6_SpringBootProject_Sample
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: Eidiko
+    password: sarasu10
+    driver-class-name: oracle.jdbc.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+#spring:
+#  config:
+#    import: "classpath:config.properties"
+
