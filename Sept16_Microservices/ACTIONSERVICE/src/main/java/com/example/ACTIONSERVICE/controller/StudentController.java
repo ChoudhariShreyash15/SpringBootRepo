@@ -34,4 +34,14 @@ public class StudentController {
     public String deleteStudent(@PathVariable int id){
         return studentService.deleteStudent(id);
     }
+
+    @GetMapping("/getByRestTemplate/{id}")
+    public Student getByRestTemplate(@PathVariable Integer id){
+        return studentService.getByRestTemplate(id);
+    }
+
+    @GetMapping("/getByWebClient/{id}")
+    public Student getByWebClient(@PathVariable Integer id){
+        return studentService.getByWebClient(id);
+    }
 }
